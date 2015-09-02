@@ -12,9 +12,15 @@ gem 'sqlite3'
 
 gem 'rspec-rails'
 
+gem 'jwt'
+gem 'pry-rails'
+gem 'dotenv-rails', :groups => [:development, :test]
+gem 'active_model_serializers'
+gem 'pg'
+
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
