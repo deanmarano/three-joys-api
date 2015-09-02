@@ -10,6 +10,7 @@ gem 'spring', :group => :development
 
 gem 'sqlite3'
 
+gem 'rspec-rails'
 
 
 # To use ActiveModel has_secure_password
@@ -19,7 +20,7 @@ gem 'sqlite3'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano', :group => :development
